@@ -1,0 +1,88 @@
+.header{
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_logo{
+    display: flex;
+    align-items: center;
+    color: orange;
+    margin: 0 25px;
+}
+.header_logoImage{
+    margin-right: 10px;
+}
+.header_logoTitle{
+    text-decoration: cadetblue;
+    border: 0;
+    color: white;
+}
+.header_search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border: 24px;
+    margin: 0px 10px;
+}
+.header_searchInput{
+   height: 12px;
+   padding:10px;
+   border:none;
+   width: 100%;
+}
+.header_searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: grey;
+
+}
+.header_nav{
+    display: flex;
+    justify-self:space-evenly;
+}
+.nav_iteam{
+    display: flex;
+
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:white;
+    align-items: center;
+}
+.value {
+    color: rgb(76, 47, 79); /* Deep Blue */
+}
+
+.vault {
+    color: #F59E0B; /* Gold */
+}
+.nav_iteamLineOne{
+    font-size: 10px;
+   
+}
+.nav_iteamLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+.nav_iteamBasket{
+
+    display: flex;
+    align-items: center;
+    color: #F59E0B;
+    margin-right:50px;
+    
+    margin-left: 10px;
+
+}
+.nav_basketCount{
+    margin-left: 10px;
+    margin-bottom: 10px; 
+   
+}
+
+
